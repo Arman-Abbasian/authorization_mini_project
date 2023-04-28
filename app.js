@@ -1,5 +1,5 @@
 const express=require("express");
-const { ErrorHandler, NotFoundError } = require("./utils/errorHandler");
+const { ErrorHandler, NotFoundError } = require("./utils/errorHandler.utils");
 const {AllRoutes}=require("./routers/index.routes")
 const app=express();
 require("./config/mongo.config");
